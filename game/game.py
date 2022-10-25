@@ -45,7 +45,7 @@ while game:
             game = False   # закінчуємо цикл while
     if finish != True:
         window.fill(BLUE)
-        racet_left.update()
+        racet_left.update_left()
         racet_left.reset()
     display.update()
     clock.tick(FPS)
