@@ -44,7 +44,7 @@ while game:
         if e.type == QUIT: # тип подій - закрити вікно
             game = False   # закінчуємо цикл while
     if finish != True:
-        window.fill(fon)
+        window.fill(BLUE)
         racet_left.update()
         racet_left.reset()
     display.update()
