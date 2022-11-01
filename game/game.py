@@ -30,7 +30,7 @@ win_height = 500
 window = display.set_mode((win_height,win_width))
 BLUE = (200,255,255)
 window.fill(BLUE)
-racet_left = ("FOTO1.png",30,200,4,50,150)
+racet_left = ("ракетка тест.png",30,200,4,50,150)
 # прапорці, які відповідають за стан гри
 game = True
 finish = False
