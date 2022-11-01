@@ -30,8 +30,8 @@ win_height = 500
 window = display.set_mode((win_width,win_height))
 BLUE = (200,255,255)
 window.fill(BLUE)
-racet_left =Player("cyborg.png",30,200,4,70,100)
-racet_right =Player("cyborg.png",520,200,4,70,100)
+racet_left =Player("Ракетка.png",30,200,4,70,100)
+racet_right =Player("Ракетка.png",520,200,4,70,100)
 ball = GameSprint("asteroid.png",200,200,4,50,50)
 # прапорці, які відповідають за стан гри
 game = True
